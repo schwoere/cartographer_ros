@@ -22,6 +22,8 @@
 
 namespace cartographer_ros {
 
+// configures a point processing pipeline and 
+// pushes the points of the scans through it 
 void RunAssetsWriterPipeline(
          const std::string& pose_graph_filename,
          const std::vector<std::string>& bag_filenames,
